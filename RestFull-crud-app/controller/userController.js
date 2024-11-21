@@ -77,3 +77,8 @@ export const deleteUser = async (req, res)=>{
         res.status(500).json({error : " Internal Server Error. "})
     }
 }
+
+
+// PORT=8000
+// MONGO_URL = "mongodb+srv://sahankit457:Ankit%40457@cluster0.d8oja.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+// # MONGO_URL = "mongodb://localhost:27017"
